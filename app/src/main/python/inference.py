@@ -1,6 +1,5 @@
 import random
 from glob import glob
-from os import makedev, path
 import numpy as np
 from PIL import Image, ImageFilter, ImageChops, ImageOps
 import onnxruntime

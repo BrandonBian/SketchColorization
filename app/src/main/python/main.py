@@ -12,7 +12,7 @@ import inference
 
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
-multiprocessing.set_start_method('forkserver', force=True)
+multiprocessing.set_start_method('spawn', force=True)
 multiprocessing.freeze_support()
 
 
